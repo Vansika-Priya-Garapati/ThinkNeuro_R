@@ -1,0 +1,8 @@
+Bibliometric Pipeline Summary
+=============================
+
+Total Papers: 100
+Timespan: 1995-2024
+Earliest Year: 1995
+Latest Year: 2024
+

@@ -1,0 +1,18 @@
+Bibliometric Pipeline Summary
+=============================
+
+Total Papers: 100
+Timespan: 1995-2024
+Earliest Year: 1995
+Latest Year: 2024
+
+
+Generated Outputs
+-----------------
+pipeline_summary.txt
+bibliometric_summary.txt
+figures/country_collaboration_network.png
+tables/citation_synthesis_table.csv
+tables/top_25_cited_papers.csv
+tables/national_share_table.csv
+tables/country_publication_share.csv

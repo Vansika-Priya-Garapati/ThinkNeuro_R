@@ -1,0 +1,209 @@
+$MainInformation
+ [1] "\n\nMAIN INFORMATION ABOUT DATA\n\n"                  "Timespan                              1995 : 2024 \n"
+ [3] "Sources (Journals, Books, etc)        62 \n"          "Documents                             100 \n"        
+ [5] "Annual Growth Rate %                  2.42 \n"        "Document Average Age                  8.84 \n"       
+ [7] "Average citations per doc             818.5 \n"       "Average citations per year per doc    82.1 \n"       
+ [9] "References                            10381 \n"       "\nDOCUMENT TYPES                     \n"             
+[11] "article                    74 \n"                     "article; data paper        1 \n"                     
+[13] "article; early access      1 \n"                      "review                     24 \n"                    
+[15] "\nDOCUMENT CONTENTS\n"                                "Keywords Plus (ID)                    582 \n"        
+[17] "Author's Keywords (DE)                453 \n"         "\nAUTHORS\n"                                         
+[19] "Authors                               705 \n"         "Author Appearances                    776 \n"        
+[21] "Authors of single-authored docs       3 \n"           "\nAUTHORS COLLABORATION\n"                           
+[23] "Single-authored docs                  3 \n"           "Documents per Author                  0.142 \n"      
+[25] "Co-Authors per Doc                    7.76 \n"        "International co-authorships %        57 \n"         
+[27] "\n"                                                  
+
+$MainInformationDF
+                          Description   Results
+1         MAIN INFORMATION ABOUT DATA          
+2                            Timespan 1995:2024
+3      Sources (Journals, Books, etc)        62
+4                           Documents       100
+5                Annual Growth Rate %      2.42
+6                Document Average Age      8.84
+7           Average citations per doc     818.5
+8  Average citations per year per doc      82.1
+9                          References     10381
+10                     DOCUMENT TYPES          
+11                            article        74
+12                article; data paper         1
+13              article; early access         1
+14                             review        24
+15                  DOCUMENT CONTENTS          
+16                 Keywords Plus (ID)       582
+17             Author's Keywords (DE)       453
+18                            AUTHORS          
+19                            Authors       705
+20                 Author Appearances       776
+21    Authors of single-authored docs         3
+22              AUTHORS COLLABORATION          
+23               Single-authored docs         3
+24               Documents per Author     0.142
+25                 Co-Authors per Doc      7.76
+26     International co-authorships %        57
+27                                             
+
+$AnnualProduction
+   Year    Articles
+1     1995        1
+2     2003        1
+3     2004        2
+4     2006        3
+5     2007        1
+6     2009        3
+7     2010        3
+8     2011        2
+9     2012        2
+10    2015        4
+11    2016        8
+12    2017        7
+13    2018        8
+14    2019       15
+15    2020       16
+16    2021       10
+17    2022        8
+18    2023        4
+19    2024        2
+
+$AnnualGrowthRate
+[1] 2.42
+
+$MostProdAuthors
+   Authors        Articles   Authors        Articles Fractionalized
+1   REICHSTEIN M         7 CRANE-DROESCH A                    1.000
+2   JUNG M               5 FRANKLIN J                         1.000
+3   CAMPS-VALLS G        4 GRANATA F                          1.000
+4   ANDERSON RP          3 KIM Y                              1.000
+5   HENGL T              3 REICHSTEIN M                       0.773
+6   ICHII K              3 ANDERSON RP                        0.701
+7   PAPALE D             3 FRIEDL MA                          0.667
+8   SHI Z                3 POTERE D                           0.667
+9   WEBER U              3 SCHNEIDER A                        0.667
+10  WU L                 3 JUNG M                             0.548
+11  ARAIN MA             2 HENGL T                            0.534
+12  CESCATTI A           2 AMINIKHANGHAHI S                   0.500
+13  CHEN J               2 BARBOSA AM                         0.500
+14  CHRISTOPHER C        2 BERG M                             0.500
+15  CIAIS P              2 BOLTON T                           0.500
+16  DUVEILLER G          2 COOK DJ                            0.500
+17  FAN J                2 LIM B                              0.500
+18  FRIEDL MA            2 MARCOT BG                          0.500
+19  G. G                 2 OLDEN JD                           0.500
+20  GENTINE P            2 PENMAN TD                          0.500
+
+$MostCitedPapers
+                                               Paper                                       DOI    TC TCperYear  NTC
+1  PHILLIPS SJ, 2006, ECOL MODEL                              10.1016/j.ecolmodel.2005.03.026  14224     677.3 1.95
+2  ELITH J, 2006, ECOGRAPHY                                   10.1111/j.2006.0906-7590.04596.x  7342     349.6 1.01
+3  REICHSTEIN M, 2019, NATURE                                 10.1038/s41586-019-0912-1         3829     478.6 5.91
+4  BRUNTON SL, 2016, PROC NATL ACAD SCI U S A                 10.1073/pnas.1517384113           3620     329.1 4.17
+5  RODRIGUEZ-GALIANO VF, 2012, ISPRS-J PHOTOGRAMM REMOTE SENS 10.1016/j.isprsjprs.2011.11.002   2283     152.2 1.63
+6  JUNG M, 2010, NATURE                                       10.1038/nature09396               1876     110.4 2.00
+7  POGGIO L, 2021, SOIL                                       10.5194/soil-7-217-2021           1552     258.7 2.39
+8  WEISS M, 2020, REMOTE SENS ENVIRON                         10.1016/j.rse.2019.111402         1422     203.1 2.59
+9  PODGORSKI J, 2020, SCIENCE                                 10.1126/science.aba1510           1247     178.1 2.27
+10 LIM B, 2021, PHILOS TRANS R SOC A-MATH PHYS ENG SCI        10.1098/rsta.2020.0209            1224     204.0 1.88
+11 MARMION M, 2009, DIVERS DISTRIB                            10.1111/j.1472-4642.2008.00491.x  1206      67.0 1.50
+12 MOSAVI A, 2018, WATER                                      10.3390/w10111536                 1169     129.9 2.10
+13 JUNG M, 2011, J GEOPHYS RES-BIOGEOSCI                      10.1029/2010JG001566              1095      68.4 1.60
+14 SANDERMAN J, 2017, PROC NATL ACAD SCI U S A                10.1073/pnas.1706103114           1036     103.6 1.93
+15 ANDERSON RP, 2003, ECOL MODEL                              10.1016/S0304-3800(02)00349-6      956      39.8 1.00
+16 AMINIKHANGHAHI S, 2017, KNOWL INF SYST                     10.1007/s10115-016-0987-z          912      91.2 1.69
+17 AHMED R, 2020, RENEW SUST ENERG REV                        10.1016/j.rser.2020.109792         853     121.9 1.55
+18 DAS UK, 2018, RENEW SUST ENERG REV                         10.1016/j.rser.2017.08.017         853      94.8 1.53
+19 KOCHKOV D, 2021, PROC NATL ACAD SCI U S A                  10.1073/pnas.2101784118            838     139.7 1.29
+20 HASSANI A, 2021, NAT COMMUN                                10.1038/s41467-021-26907-3         771     128.5 1.19
+
+$MostProdCountries
+          Country Articles Freq SCP MCP MCP_Ratio
+1  USA                  31 0.31  16  15     0.484
+2  CHINA                12 0.12   8   4     0.333
+3  GERMANY               9 0.09   2   7     0.778
+4  AUSTRALIA             7 0.07   1   6     0.857
+5  CANADA                4 0.04   3   1     0.250
+6  UNITED KINGDOM        4 0.04   3   1     0.250
+7  FRANCE                3 0.03   1   2     0.667
+8  ITALY                 3 0.03   1   2     0.667
+9  KOREA                 3 0.03   2   1     0.333
+10 NETHERLANDS           3 0.03   2   1     0.333
+11 SPAIN                 3 0.03   0   3     1.000
+12 MALAYSIA              2 0.02   0   2     1.000
+13 MOROCCO               2 0.02   1   1     0.500
+14 NORWAY                2 0.02   0   2     1.000
+15 SWITZERLAND           2 0.02   0   2     1.000
+16 ANTIGUA               1 0.01   1   0     0.000
+17 BELGIUM               1 0.01   0   1     1.000
+18 BRAZIL                1 0.01   0   1     1.000
+19 FINLAND               1 0.01   0   1     1.000
+20 IRELAND               1 0.01   0   1     1.000
+
+$TCperCountries
+     Country      Total Citations Average Article Citations
+1  USA                      32237                      1040
+2  AUSTRALIA                10489                      1498
+3  GERMANY                   9485                      1054
+4  CHINA                     5574                       464
+5  SPAIN                     3255                      1085
+6  UNITED KINGDOM            2754                       688
+7  NETHERLANDS               2418                       806
+8  FRANCE                    2170                       723
+9  CANADA                    2106                       526
+10 SWITZERLAND               1521                       760
+11 NORWAY                    1477                       738
+12 ITALY                     1227                       409
+13 FINLAND                   1206                      1206
+14 MALAYSIA                  1163                       582
+15 KOREA                      854                       285
+16 MOROCCO                    698                       349
+17 SWEDEN                     497                       497
+18 ANTIGUA                    441                       441
+19 IRELAND                    396                       396
+20 BELGIUM                    356                       356
+
+$MostRelSources
+                                                                                     Sources        Articles
+1  ECOLOGICAL MODELLING                                                                                    5
+2  ENVIRONMENTAL RESEARCH LETTERS                                                                          5
+3  REMOTE SENSING OF ENVIRONMENT                                                                           5
+4  AGRICULTURAL AND FOREST METEOROLOGY                                                                     4
+5  GEODERMA                                                                                                4
+6  NATURE                                                                                                  4
+7  PROCEEDINGS OF THE NATIONAL ACADEMY OF SCIENCES OF THE UNITED STATES OF AMERICA                         4
+8  PHILOSOPHICAL TRANSACTIONS OF THE ROYAL SOCIETY A-MATHEMATICAL PHYSICAL AND ENGINEERING SCIENCES        3
+9  SCIENTIFIC REPORTS                                                                                      3
+10 APPLIED ENERGY                                                                                          2
+11 BIOGEOSCIENCES                                                                                          2
+12 DIVERSITY AND DISTRIBUTIONS                                                                             2
+13 GLOBAL ECOLOGY AND BIOGEOGRAPHY                                                                         2
+14 ISPRS JOURNAL OF PHOTOGRAMMETRY AND REMOTE SENSING                                                      2
+15 JOURNAL OF ADVANCES IN MODELING EARTH SYSTEMS                                                           2
+16 JOURNAL OF HYDROLOGY                                                                                    2
+17 NATURE COMMUNICATIONS                                                                                   2
+18 RENEWABLE \\& SUSTAINABLE ENERGY REVIEWS                                                                2
+19 REVIEWS OF GEOPHYSICS                                                                                   2
+20 ACM COMPUTING SURVEYS                                                                                   1
+
+$MostRelKeywords
+      Author Keywords (DE)      Articles     Keywords-Plus (ID)     Articles
+1  MACHINE LEARNING                   24 CLIMATE                          22
+2  DEEP LEARNING                       7 MODEL                            17
+3  LEARNING                            7 PREDICTION                       15
+4  RANDOM FOREST                       7 CLASSIFICATION                   14
+5  MACHINE                             6 CLIMATE-CHANGE                   13
+6  REMOTE SENSING                      6 MODELS                           11
+7  ARTIFICIAL INTELLIGENCE             5 REGRESSION                        9
+8  CLIMATE CHANGE                      5 WATER                             9
+9  AGRICULTURE                         4 TEMPERATURE                       8
+10 ARTIFICIAL NEURAL NETWORKS          3 ARTIFICIAL NEURAL-NETWORKS        7
+11 CLASSIFICATION                      3 ARTIFICIAL NEURAL-NETWORK         6
+12 CONVOLUTIONAL NEURAL NETWORK        3 NEURAL-NETWORKS                   6
+13 DATA MINING                         3 UNCERTAINTY                       6
+14 DECISION TREES                      3 IMPACT                            5
+15 DIGITAL SOIL MAPPING                3 VEGETATION                        5
+16 HYBRID                              3 ACCURACY                          4
+17 LAND COVER                          3 DISTRIBUTIONS                     4
+18 MACHINE-LEARNING                    3 EVAPOTRANSPIRATION                4
+19 MODEL                               3 FRAMEWORK                         4
+20 MODELING                            3 LAND-USE                          4
+
