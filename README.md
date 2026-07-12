@@ -1,41 +1,40 @@
 # ThinkNeuro_R
 R Code for RStudio Labs and Bibliometric Analysis for ThinkNeuro Research Internship
 ---
+**Part 1: R Code for R Studio**
 
-## 🛠️ Core Competencies & Skills Built
+### R Programming Week 1 (bibliometrics_week1) 
+Data - **sample_export.bib** found in **data** folder
+* **Lab 1: 01_workspace_setup.R**
+  * *Skills:* Basic Arithmetic, Variable Assignments, Recalling and Inspecting Variables, Calculating CPP (Citations per Publications) metric
+* **Lab 2: 02_data_import.R**
+  * *Skills:* Imported raw data (sample_export.bib) into a Data Frame, inspected dimensions (`dim`), inspected headers (`head`), extracted all metadata column names ('colnames'), specific metadata field ('$'), and utilized `range()` to compute oldest and latest publication years.
+* **Lab 3: 03_biblioshiny.R**
+  * *Skills:* Converted data (sample_export.bib) into a Data Frame, a **mydata.RData** file, and executed Biblioshiny
+ 
+### R Programming Week 2 (bibliometrics_week2)
+Data - **sample_export.bib** found in **data** folder, **scientometrics** is a part of **package = bibliometrixData**, and **geographic_demo.bib**
+Plotted PDF and PNG files of Lab 4-6 in **outputs** folder
+Files of **geographic_demo.R** found in **bibliometric_outputs** folder
+* **Lab 4: 04_descriptive_analysis.R**
+  * *Skills:* Computed Annual Growth Rate, Ran Full Bibliometric Summary, Evaluated author productivity plotted in pdf (**top_authors.pdf**) and png (**top_authors.png**) format 
+* **Lab 5: 05_network_mapping.R**
+  * *Skills:* Built and Plotted a Co-Authorship Network in fruchterman (**coauthorship_network.pdf**) and kamada (**coauthorship_network2.pdf**) types, Built and Plotted a Keyword Co-Occurence Network using louvian (**keyword_network.pdf**)
+* **Lab 6: 06_geographic_synthesis.R**
+  * *Skills:* Built and Plotted a Country Co-Authorship Network (**country_network.pdf**, Built a Citation Synthesis Table, and Calculated Relative National Share (S_i)
+* **Demo: geographic_demo.R**
+  * *Skills:* Installed packages (bibliometrix, dplyr, readr, stringr), created output directory (**bibliometric_outputs** where all files of this demo are found), converted data into a data frame, extracted country information from affiliations, built and extracted Country Collaboration Network (**country_collaboration_network.png** in **figures** folder), National Share Table (**national_share_table.csv** in **tables** folder), Citation Synthesis Table (**citation_synthesis_table.csv** in **tables** folder), Top Cited Papers (**top_25_cited_papers.csv** in **tables** folder), Country Production Table (**country_publication_share.csv** in **tables** folder), and Final Bibliometric Report consisting of Bibliometric Summary (**bibliometric_summary.txt**), Bibliometric Pipeline Summary (**pipeline_summary.txt**) and Analysis Report (**analysis_report.txt**)
 
-### 📂 Phase 1: Data Architecture & App Prototyping (Week 1)
-* **Lab 1: Workspace Initialization & Arithmetic**
-  * *Tasks:* Configured the RStudio environment, performed variable assignments, and executed basic calculation matrices to compute Citations Per Publication (CPP) metrics.
-  * *Skills:* Environment configuration, mathematical programming, and metric tracking.
-* **Lab 2: Data Frame Construction & Structural Exploration**
-  * *Tasks:* Imported raw metadata text repositories into a structured Data Frame, isolated spatial dimensions (`dim`), inspected structural headers (`head`), extracted metadata column names, filtered publication vectors, and utilized `range()` to pinpoint temporal boundaries (highest/lowest publication years).
-  * *Skills:* Exploratory Data Analysis (EDA), multi-dimensional matrix handling, and data filtering.
-* **Lab 3: Binary Environment Serialization**
-  * *Tasks:* Transformed the active operational data frame and serialized it into a highly portable binary `.RData` file (`mydata.RData`) to preserve workspace states across sessions.
-  * *Skills:* Environment serialization, memory management, and reproducible research workflows.
-
-### 📂 Phase 2: Pipeline Automation & Network Mapping (Week 2)
-* **Lab 4: Descriptive Bibliometrics & Vector Graphics Export**
-  * *Tasks:* Modeled annual publication growth rates, ran comprehensive summary metrics on author productivity, and programmatically exported high-resolution, unpixelated vector figures (PDF/PNG format) mapping top authors.
-  * *Skills:* Production velocity calculation and publication-grade vector graphics exporting.
-* **Lab 5: Graph Theory & Foundational Network Topologies**
-  * *Tasks:* Programmatically constructed, mapped, and plotted relational graphs tracking **Co-Authorship Networks** (social linkages) and **Keyword Co-Occurrence Networks** (thematic clusters).
-  * *Skills:* Structural network analysis, node-edge plotting, and thematic clustering.
-* **Lab 6: Global Collaboration Dynamics & Synthesis**
-  * *Tasks:* Engineered a **Country Co-Authorship Network**, built a comprehensive citation synthesis table, and computed the Relative National Share (Scientific Intensity - SI) index.
-  * *Skills:* Macro-level global network modeling and geopolitical research index formulation.
-* **The "Bibliometrics Engine" Demo (End-to-End Automation)**
-  * *Tasks:* Executed a massive, full-scale automated script that parsed global datasets to generate a complete `bibliometrics_outputs` root directory. The pipeline automatically computed and categorized: country collaboration networks, national share tables, decision synthesis matrices, top-cited papers, country production tables, and a finalized automated summary report.
-  * *Skills:* Pipeline automation, production scripting, and comprehensive data report design.
-
-### 📂 Phase 3: Advanced Data Visualization & Literature Analytics (Week 3)
-* **Lab 7: Custom Visual Engines (ggplot2)**
-  * *Tasks:* Built dynamic inline bar charts and distribution histograms using the **ggplot2** ecosystem to track citation histories and author data.
-  * *Skills:* Statistical data visualization and canvas mapping.
-* **Lab 8: Advanced Structural Coupling Networks**
-  * *Tasks:* Advanced past basic networks to compute complex relational maps: **Co-Authorship**, **Co-Citation Analysis** (mapping shared citations), **Keyword Co-occurrence**, and **Bibliographic Coupling** (identifying overlapping thematic foundations between independent papers).
-  * *Skills:* Mathematical coupling analysis, semantic indexing, and advanced cluster mapping.
-* **Lab 9: Poster-Ready Visual Polishing**
-  * *Tasks:* Tailored and optimized raw plots by dynamically injecting titles, generating descriptive axis labels, applying structured design themes, and exporting highly polished, poster-ready academic assets.
-  * *Skills:* Academic presentation design, layout typography, and graphic asset styling.
+### R Programming Week 3 (bibliometrics_week3)
+Data - **scientometrics** is a part of **package = bibliometrixData**
+Files of Labs 7-9 found in **outputs** folder
+* **Lab 7: 07_ggplot2_basics.R**
+  * *Skills:* Created a Sample Data Set, inspected the data frame using (`head`) and ('str'), Designed Line Plot (**line_citation_trend.png**), Bar Chart (**bar_author_output.png**), Histogram (**hist_citation_dist.png**),Scatterplot (**scatter_pubs_cities.png**), and custom scatterplot where color = author (**scatter_colored.png**)
+* **Lab 8: 08_advanced_networks.R**
+  * *Skills:* Built Co-Authorship Network (**net_coauthorship.pdf**), Co-Citation Network (**net_cocitation.pdf**), Keyword Co-Occurence Network (**net_keywords.pdf**), and Bibliographic Coupling Network (**net_coupling.pdf**)
+* **Lab 9: 09_poster_figures.R**
+  * *Skills:* Created a Sample Data set, Made a raw ggplot2 graph, customized graph by adding titles, axis labels, applying minimal theme, bold title, axis sizing, and finalizing poster dimensions - (**poster_citation_table.pdf** and **poster_citation_table.png**)
+---
+  **Part 2: R Code for Bibliometrics Research Project/Poster**
+---
+*Maintained by Vansika Priya Garapati*
