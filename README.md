@@ -35,6 +35,7 @@ Files of Labs 7-9 found in **outputs** folder
 * **Lab 9: 09_poster_figures.R**
   * *Skills:* Created a Sample Data set, Made a raw ggplot2 graph, customized graph by adding titles, axis labels, applying minimal theme, bold title, axis sizing, and finalizing poster dimensions - (**poster_citation_table.pdf** and **poster_citation_table.png**)
 ---
-  **Part 2: R Code for Bibliometrics Research Project/Poster**
+**Part 2: R Code for Bibliometrics Research Project/Poster**
+
 ---
 *Maintained by Vansika Priya Garapati*
