@@ -37,7 +37,6 @@ Files of Labs 7-9 found in **outputs** folder
 ---
 **Part 2: R Code for Bibliometrics Research Project/Poster**
 
----
 ### Group 4 Healthcare Access and Disparities (bibliometrics_research_project2) 
 Data - **ThinkNeuro_Group4_Top100_Biblioshiny_Ready.txt** found in **data** folder
 * **Keyword Co-Occurence Network: Figure7_Keyword_Network.R**
