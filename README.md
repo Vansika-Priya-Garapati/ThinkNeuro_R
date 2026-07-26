@@ -37,6 +37,11 @@ Files of Labs 7-9 found in **outputs** folder
 ---
 **Part 2: R Code for Bibliometrics Research Project/Poster**
 
+### Group 8 Cognitive and Computational Neuroscience (bibliometrics_research_project) 
+Data - **diane_data.bib** found in **data** folder
+* **Keyword Co-Occurence Network: Figure5_Keyword_Cooccurence_Network.R**
+  * *Skills:* Defined color palette,converted into data frame, built and plotted a Keyword Co-Occurence Network, added a custom subtitle, and saved the network as a PDF - **Keyword_Cooccurence_Network.pdf** in **outputs** folder
+
 ### Group 4 Healthcare Access and Disparities (bibliometrics_research_project_2) 
 Data - **ThinkNeuro_Group4_Top100_Biblioshiny_Ready.txt** found in **data** folder
 * **Keyword Co-Occurence Network: Figure7_Keyword_Network.R**
