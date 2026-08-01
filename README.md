@@ -38,7 +38,7 @@ Files of Labs 7-9 found in **outputs** folder
 **Part 2: R Code for Bibliometrics Research Project/Poster**
 
 ### Group 8 Cognitive and Computational Neuroscience (bibliometrics_research_project) 
-Data - **diane_data.bib** found in **data** folder
+Data - **diane_data.bib** found in **data** folder ; R Scripts found in **scripts** folder
 * **Keyword Co-Occurrence Network: Keyword_Cooccurrence_Network.R**
   * *Skills:* Defined color palette,converted into data frame, built and plotted a Keyword Co-Occurence Network, added a custom subtitle, and saved the network as a PDF - **Keyword_Cooccurrence_Network.pdf** in **outputs** folder
 * **Publicatons Over Time Line Graph: Publication_Year_Graph.R**
@@ -51,8 +51,8 @@ Data - **diane_data.bib** found in **data** folder
   * *Skills:* Created PDF table styling, loaded saved CSV, filtered down to top 5, and saved the table as a PDF - **top_5_most_cited_papers_table.pdf** in **outputs** folder
 
 ### Group 4 Healthcare Access and Disparities (bibliometrics_research_project_2) 
-Data - **ThinkNeuro_Group4_Top100_Biblioshiny_Ready.txt** found in **data** folder
-* **Keyword Co-Occurence Network: Figure7_Keyword_Network.R**
-  * *Skills:* Defined color palette,converted into data frame, built and plotted a Keyword Co-Occurence Network, added a custom subtitle, and saved the network as a PDF - **Figure7_Author_Keyword_Cooccurence_Network.pdf** in **outputs** folder
+Data - **ThinkNeuro_Group4_Top100_Biblioshiny_Ready.txt** found in **data** folder ; R Scripts found in **scripts** folder
+* **Keyword Co-Occurrence Network: Figure7_Keyword_Network.R**
+  * *Skills:* Defined color palette,converted into data frame, built and plotted a Keyword Co-Occurrence Network, added a custom subtitle, and saved the network as a PDF - **Figure7_Author_Keyword_Cooccurrence_Network.pdf** in **outputs** folder
 
 *Maintained by Vansika Priya Garapati*
