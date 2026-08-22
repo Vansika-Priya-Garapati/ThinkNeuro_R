@@ -34,3 +34,5 @@ Files of Labs 7-9 found in **outputs** folder
   * *Skills:* Built Co-Authorship Network (**net_coauthorship.pdf**), Co-Citation Network (**net_cocitation.pdf**), Keyword Co-Occurence Network (**net_keywords.pdf**), and Bibliographic Coupling Network (**net_coupling.pdf**)
 * **Lab 9: 09_poster_figures.R**
   * *Skills:* Created a Sample Data set, Made a raw ggplot2 graph, customized graph by adding titles, axis labels, applying minimal theme, bold title, axis sizing, and finalizing poster dimensions - (**poster_citation_table.pdf** and **poster_citation_table.png**)
+  
+*Maintained by Vansika Priya Garapati*
