@@ -1,5 +1,5 @@
 # ThinkNeuro_R
-R Code for RStudio Labs and Bibliometric Analysis for ThinkNeuro Research Internship
+R Code of RStudio Labs for ThinkNeuro Research Internship
 ---
 **Part 1: R Code for R Studio**
 
